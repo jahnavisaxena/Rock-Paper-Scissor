@@ -61,7 +61,7 @@ let score=JSON.parse(localStorage.getItem
             score.ties += 1;
         }
 
-        localStorage.setItem('score',JSON.stringify(score));//save
+        localStorage.setItem('score',JSON.stringify(score));
 
         updateScore();
 
